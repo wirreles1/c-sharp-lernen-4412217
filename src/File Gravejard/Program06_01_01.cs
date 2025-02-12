@@ -29,12 +29,11 @@ else
 string numbers = "1,2,3,4,5";
 Console.WriteLine("Dieses Programm kann Zahlen der Reihenfolge nach sortieren");
 Console.WriteLine("Bitte gebe die zu sortierenden Zahlen durch Kommata getrennt ein");
-numbers = Console.ReadLine() ?? string.Empty;
+numbers = (Console.ReadLine() ?? string.Empty);
 double[] mein_erstes_array;
 try
 {
   mein_erstes_array = numbers.Split(',').Select(double.Parse).ToArray();
-  double number = mein_erstes_array[mein_erstes_array.Length+1];
 }
 catch (FormatException)
 {

@@ -22,6 +22,7 @@ int sub(int firstNumber, int secondNumber)
 Console.WriteLine("----------Test für sub-Funktion-------------");
 Console.WriteLine(sub(9, 2));
 Console.WriteLine(sub(11, 21));
+Console.WriteLine(sub(15, 21));
 Console.WriteLine(sub(-11, 21));
 Console.WriteLine("---------------------------------------------");
 
@@ -58,6 +59,8 @@ Console.WriteLine(multiply(-9, 2));
 Console.WriteLine(multiply(11, -2));
 Console.WriteLine(multiply(-11, -11));
 Console.WriteLine(multiply(11, 0));
+Console.WriteLine(multiply(10, 100));
+Console.WriteLine(multiply(100, 10));
 Console.WriteLine("-------------------------------------------------");
 
 double divide(double firstNumber, double secondNumber)
@@ -70,7 +73,7 @@ double divide(double firstNumber, double secondNumber)
   return firstNumber / secondNumber;
 }
 
-Console.WriteLine("----------Test für sub-Funktion-------------");
+Console.WriteLine("----------Test für div-Funktion-------------");
 Console.WriteLine(divide(9, 2));
 Console.WriteLine(divide(22, 2));
 Console.WriteLine(divide(-11, 3));
