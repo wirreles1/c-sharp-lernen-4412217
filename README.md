@@ -1,3 +1,6 @@
+Ich habe den Code im Ordner src bearbeitet
+
+
 # Programmieren lernen mit C#
 
 Dies ist das Repository für den **LinkedIn Learning** Kurs `Programmieren lernen mit C#`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
